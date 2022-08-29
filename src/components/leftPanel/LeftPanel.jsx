@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.scss";
 import logo from "../../assets/logo.jpeg";
+import cv from "../../assets/resume2PDF.pdf";
 import { Icons } from "../../assets/Icons";
 
 export const LeftPanel = () => {
@@ -23,6 +24,9 @@ export const LeftPanel = () => {
             <Icons type="instagram" fill="white" />
           </a>
         </div>
+        <a href={cv} download>
+          Download CV
+        </a>
       </div>
     </div>
   );
