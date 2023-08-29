@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 import logo from "../../assets/logo.jpeg";
-import cv from "../../assets/resume2PDF.pdf";
+import cv from "../../assets/CV_STAN_HILL.pdf";
 import { Icons } from "../../assets/Icons";
 
 export const LeftPanel = () => {
@@ -10,9 +10,10 @@ export const LeftPanel = () => {
       <div className="left_container">
         <img src={logo} className="left_container__logo" alt="logo" />
         <h1>Stan Hill</h1>
-        <p>Software engineer</p>
+        <p>Fullstack developer</p>
+        <p>Gdansk / Poland</p>
         <a href="mailto: stasgill@gmail.com">stasgill@gmail.com</a>
-        <a href="Tel: +380677882960">+380677882960</a>
+        <a href="Tel: +380677882960">+48571244563</a>
         <div className="left_container__icons">
           <a href="https://www.linkedin.com/in/stanislavhill/" target="blank">
             <Icons type="linkedin" fill="white" />
