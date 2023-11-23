@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 import logo from "../../assets/logoJPG.jpeg";
-import cv from "../../assets/CV_STAN_HILL.pdf";
+import cv from "../../assets/CV_STAN_HILL_PDF.pdf";
 import { Icons } from "../../assets/Icons";
 
 export const LeftPanel = () => {

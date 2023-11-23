@@ -1,25 +1,16 @@
 import React from "react";
-// import screen1 from "../../assets/screen1.jpg";
-// import screen2 from "../../assets/screen2.jpg";
 import screen3 from "../../assets/screen3.jpg";
 import screen4 from "../../assets/screen4.png";
 import screen5 from "../../assets/screen5.png";
-
-import "./styles.scss";
 import { ProjectItem } from "./ProjectItem";
+import { data } from "../../assets/data";
+import "./styles.scss";
 
 export const RightPanel = () => {
   return (
     <div className="right_container">
       <h2>About</h2>
-      <p>
-        I am a dedicated Software Developer with over three years of experience
-        in web and mobile application development. I have had the privilege of
-        working in large international teams in the fields of sports streaming
-        services and the gambling industry. I am familiar with business
-        processes and objectives, always eager to learn new technologies and use
-        the best practices in application development.
-      </p>
+      <p>{data.about}</p>
       <div className="right_container__divider"></div>
       <h2>My stack</h2>
       <p>
