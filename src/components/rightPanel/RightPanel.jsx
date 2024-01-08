@@ -14,8 +14,9 @@ export const RightPanel = () => {
       <div className="right_container__divider"></div>
       <h2>My stack</h2>
       <p>
-        <b>Front-end: </b> HTML, CSS, SASS, JavaScript, React, NextJS, React
-        Hooks, Redux, Redux Toolkit, MobX, React Native, Expo.
+        <b>Front-end: </b> HTML, CSS, SASS, JavaScript, ReactJS, NextJS, React
+        Hooks, Redux, Redux Saga, Redux Thunk, Redux Toolkit, MobX, AEM,
+        Tailwind, React Query, MUI.
       </p>
       <p>
         <b>Back-end: </b>
