@@ -14,7 +14,7 @@ export const LeftPanel = () => {
         <div className="right_side">
           <h1>Stan Hill</h1>
 
-          <p>{data.about}</p>
+          <p className="left_container-about">{data.about}</p>
           <div className="right_side-btn-container">
             <div className="right_side-btn">
               <a href={cv} download>

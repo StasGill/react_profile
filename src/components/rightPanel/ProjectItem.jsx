@@ -36,7 +36,7 @@ export const ProjectItem = ({
           </a>
         </div>
       </div>
-      <div className="right_container__divider"></div>
+      {/* <div className="right_container__divider"></div> */}
     </a>
   );
 };
