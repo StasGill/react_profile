@@ -12,7 +12,7 @@ export const LeftPanel = () => {
           <img src={logo} className="left_container__logo" alt="logo" />
         </div>
         <div className="right_side">
-          <h1>Stan Hill</h1>
+          <h1>Stanislav Gil</h1>
 
           <p className="left_container-about">{data.about}</p>
           <div className="right_side-btn-container">
